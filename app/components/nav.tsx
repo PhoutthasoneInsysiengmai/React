@@ -12,6 +12,7 @@ export default function Nav(){
                 <li className="mr-6"><Link className="hover:text-bule-800" href="/" >Home</Link></li>
                 <li className="mr-6"><Link className="hover:text-bule-800" href="/about" >About</Link></li>
                 <li className="mr-6"><Link className="hover:text-bule-800" href="/contact">Contact</Link></li>
+                <li className="mr-6"><Link className="hover:text-bule-800" href="/foods">Product</Link></li>
                 <li className="mr-6" onMouseOver={toggle} onMouseOut={toggle}>
                     <Link href="#" className="hover:text-blue-800">User</Link>
                     {isOpen && <ul className="fixed bg-green-900 text-green-400">

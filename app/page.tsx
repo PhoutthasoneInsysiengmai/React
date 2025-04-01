@@ -9,7 +9,7 @@ export default function Home() {
     <p><Link href="/about">Go to about</Link></p>
     <p><Link href="/contact">Go to contact</Link></p>
 
-      <Counter/>
+      {/* <Counter/> */}
       
    </div>
   );
